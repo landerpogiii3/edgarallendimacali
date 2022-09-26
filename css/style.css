@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 180%;
+    color: #fff;
+    background-color: #323232;
+    text-align: center;
+}
+
+.img1{
+    background: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg&w=6000&h=4000);
+    min-height: 100%;
+}
+.img2{
+    background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg&w=1920&h=1200);
+    min-height: 60%;
+}
+.img3{
+    background: url(https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=pexels-s-migaj-747964.jpg&fm=jpg&w=4000&h=2525);
+    min-height: 100%;
+}
+.img1, .img2, .img3{
+    position: relative;
+    opacity: .85;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section{
+    padding: 50px, 80px;
+}
+
+.heading{
+    position: absolute;
+    top: 50%;
+    font-size: 200%;
+    text-shadow: 0 0 15px #000;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.nav-menu{
+    overflow: hidden;
+    background-color: #111B30;
+    opacity: .6;
+}
+.nav-menu a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-menu a:hover{
+    background-color: #212221;
+    color: #909659;
+}
